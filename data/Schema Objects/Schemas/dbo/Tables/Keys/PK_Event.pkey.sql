@@ -1,0 +1,3 @@
+﻿ALTER TABLE [dbo].[Event]
+	ADD CONSTRAINT [PK_Event]
+	PRIMARY KEY (EventId)

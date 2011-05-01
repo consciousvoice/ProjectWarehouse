@@ -1,0 +1,11 @@
+﻿CREATE TABLE [dbo].[Opportunity]
+(
+	OpportunityId UNIQUEIDENTIFIER NOT NULL,
+	[Description] NVARCHAR(500) NOT NULL,
+	StartDate DATETIME NOT NULL,
+	EndDate DATETIME NOT NULL,		
+	[ContentBytes] VARBINARY(MAX) NOT NULL,
+	[ContentKeywords] NVARCHAR(4000) NOT NULL,
+	AddedById UNIQUEIDENTIFIER NOT NULL,
+	LastUpdatedDate DATETIME NULL
+)

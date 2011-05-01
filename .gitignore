@@ -1,0 +1,7 @@
+*.suo
+*.user
+*.pdb
+*.sdf
+Bin
+bin
+obj
